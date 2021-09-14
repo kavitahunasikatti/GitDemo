@@ -87,8 +87,12 @@ public class StepDefinition
 	    	String resp=response.asString();
 	    	JsonPath js= new JsonPath(resp);
 	    	assertEquals(js.get(keyValue).toString(),Expectedvalue);
+	    	System.out.println(js.get(keyValue));
+	    	System.out.println(js.get(Expectedvalue));
+	    	
 	        
 	    }
+	    
 
 	
 }
