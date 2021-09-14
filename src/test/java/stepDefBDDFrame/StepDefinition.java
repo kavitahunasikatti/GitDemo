@@ -79,9 +79,15 @@ public class StepDefinition
 	    {
 
 	    	assertEquals(response.getStatusCode(),200); 
+	    	System.out.println(getStatusCode());
 	    }
 
-	    @And("^\"([^\"]*)\" in response body \"([^\"]*)\"$")
+	    private char[] getStatusCode() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		@And("^\"([^\"]*)\" in response body \"([^\"]*)\"$")
 	    public void something_in_response_body_something(String keyValue, String Expectedvalue) throws Throwable 
 	    {
 	    	String resp=response.asString();
