@@ -72,6 +72,8 @@ public class StepDefinition
 	    {
 	    	 response =res.when().post("/maps/api/place/add/json").
 	    			then().spec(resspec).extract().response();
+	    	 System.out.println(response);
+	    	 
 	    }
 
 	    @Then("^The API call is success with status code 200$")
@@ -98,6 +100,8 @@ public class StepDefinition
 	    	
 	        
 	    }
+		
+		
 	    
 
 	
