@@ -101,6 +101,7 @@ public class StepDefinition
 	    	assertEquals(js.get(keyValue).toString(),Expectedvalue);
 	    	System.out.println(js.get(keyValue));
 	    	System.out.println(js.get(Expectedvalue));
+	    	System.out.println(js.get(js));
 	    	
 	        
 	    }
