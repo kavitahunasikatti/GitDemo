@@ -73,6 +73,10 @@ public class StepDefinition
 	    	 response =res.when().post("/maps/api/place/add/json").
 	    			then().spec(resspec).extract().response();
 	    	 System.out.println(response);
+	    	 System.out.println(response);
+	    	 System.out.println(response);
+	    	 System.out.println(response);
+	    	 
 	    	 
 	    }
 
